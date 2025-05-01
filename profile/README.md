@@ -2,12 +2,15 @@
 
 Open source production ready keyboards free for everyone. 
 Each keyboard project includes all necessary components to go directly into production: 
-- design files for the main PCB (schematic and layout)
-- daughterboard (schematic and layout)
-- case (design files more CNC machining) 
-- firmware, if forking e.g. QMK or ZMK was necessary to provide special features.
+- Design files for the main PCB (schematic and layout)
+- Daughterboard (schematic and layout)
+- Case (design files more CNC machining)
+- Plate design files
+- Firmware, if forking e.g. QMK or ZMK was necessary to provide special features.
 
 Every component is optional. For example, you can always provide your own firmware.
+Each keyboard provides an assembly guide and a prebuild kit so that you don't have to worry about picking materials etc.
+Beacuse the keyboards are design as rapid disassembly keyboards their assembly only takes minutes and does not require any tools.
 
 You will also find a list of used parts and their datasheets and a list of manufacturers to help you to get started. 
 
