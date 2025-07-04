@@ -3,9 +3,9 @@
 The _Bionic75_ is a 75% multi-layout, rapid disassembly, ultra-low latency wireless, ultra-low power, RGB keyboard.
 It has a compact 83 key ISO layout and 82 key ANSI layout.
 
-It has a magnetic daughterboard connector and is designed with a CNC machined CNC aluminum case that uses a ball catch system. 
+It has a magnetic daughterboard connector and is designed with a CNC machined aluminum case that uses a ball catch system. 
 
-The _Bionic75_ supports ZMK and QMK firmware.
+The _Bionic75_ supports QMK firmware.
 
 ![Bionic75_ISO_Layout](https://github.com/user-attachments/assets/0fedb576-de96-4a30-a345-d2d17c7a4963)
 
@@ -15,10 +15,10 @@ Optional tools: lube for the stabilizers
 ## Features
 - 75% form factor (82 keys ISO/ 81 keys ANSI)
 - Hot swappable
-- RGB backlight (south facing) using WS2812 LED family
+- RGB backlight (south facing) using SK68MINI-E LED family
 - Full ISO and ANSI support (for this you need to pick the ISO or ANSI plate or both)
-- Support for QMK and ZMK
-- Support for custum keyboard layouts using VIA (If QMK is used) or ZMK Studio (if ZMK is used)
+- Support for QMK
+- Support for custum keyboard layouts using VIA
 - Aluminum case (you decide color and finish). If you are keen with designig you can even modify the design files to add your custom logo or signature
 - Extra weight (you decide material e.g. brass or steel and finish e.g. matt or mirrored)
 - Rapid disassembly system
@@ -29,7 +29,12 @@ Optional tools: lube for the stabilizers
 - Wireless Bluetooth 5.4 connectivity operating in 2 selectable modes:
   - ultra-low latency mode with a latency @1 ms using LLPM technology to rival USB and propriettary 2.4 GHz connections
   - low energy mode with a common BLE latency @8 ms in favor of longer battery life
-- Support for 2 LiPo batteries of any capacity (batteries are optional)
+- 1000 Hz (1kHz) polling rate for gaming.  
+  **Note:** faster polling rates _will not_ provide any advantage as the polling rate is not the bottle necck in the system's latency. Debouncing and especially the input latency (human reaction time, especially descision making) make higher pollig rates absolute pointless (except for marketing) and will only waste energy/shorten battery life for no gains. As a matter of fact, studies have prooved that less than 5% were able to notice the difference between 400 Hz and 1000 Hz. It's not relevant except to add marketing bubbles to the product (because higher numbers make people believe that something is better - that's why you see _1000 Hz_ instead of _1 kHz_ in the specs). 
+- Support for 1 LiPo battery cell of any capacity (batteries are optional, >= 4 Ah recommended)
+  - single battery enhances battery longevity
+  - the higher the capacity, the faster the possible charging
+  - by default, the Bionic75 comes with a 10,000 mAh battery (10 Ah)
 - Real battery management with battery maintenance to extend the battery life and improve safety (this is not a dumb charger like in commercial products)
 - fully customizable foaming (you decide number of layers and material)
 - Plate for ISO or ANSI or both (you decide material and thickness)
@@ -45,7 +50,7 @@ Optional tools: lube for the stabilizers
 
 ## Design Components and Sources for Manufacturing
 - PCB: [Bionic75-PCB](https://github.com/BionicKeyboards/bridge75-pcb)
-- 
+  
 
 **Note:** If the keyboard will be used wired only you don't have to connect batteries. 
 You also don't have to connect two battreries if you prefer a single LiPo cell.
