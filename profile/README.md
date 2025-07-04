@@ -7,7 +7,7 @@ It has a magnetic daughterboard connector and is designed with a CNC machined al
 
 The _Bionic75_ supports QMK firmware.
 
-![Bionic75_ISO_Layout](https://github.com/user-attachments/assets/0fedb576-de96-4a30-a345-d2d17c7a4963)
+![Bionic75_ISO_Layout](https://github.com/Bionic75-BionicKeyboards/bionic75-resources/blob/main/layout/Bionic75_ISO_Layout_84_Keys.png)
 
 Required tools: none or a screw driver if PCB mouted stabilizers are used
 Optional tools: lube for the stabilizers
