@@ -19,6 +19,7 @@ Optional tools: lube for the stabilizers
 - Full ISO and ANSI support (for this you need to pick the ISO or ANSI plate or both)
 - Support for QMK
 - Support for custum keyboard layouts using VIA
+- Simple and convenient drag&drop flashing (keyboard will appear like a USB drive --> no extra tools like QMK Toolkit required). 
 - Aluminum case (you decide color and finish). If you are keen with designig you can even modify the design files to add your custom logo or signature
 - Extra weight (you decide material e.g. brass or steel and finish e.g. matt or mirrored)
 - Rapid disassembly system
@@ -30,7 +31,7 @@ Optional tools: lube for the stabilizers
   - ultra-low latency mode with a latency @1 ms using LLPM technology to rival USB and propriettary 2.4 GHz connections
   - low energy mode with a common BLE latency @8 ms in favor of longer battery life
 - 1000 Hz (1kHz) polling rate for gaming.  
-  **Note:** faster polling rates _will not_ provide any advantage as the polling rate is not the bottle necck in the system's latency. Debouncing and especially the input latency (human reaction time, especially descision making) make higher pollig rates absolute pointless (except for marketing) and will only waste energy/shorten battery life for no gains. As a matter of fact, studies have prooved that less than 5% were able to notice the difference between 400 Hz and 1000 Hz. It's not relevant except to add marketing bubbles to the product (because higher numbers make people believe that something is better - that's why you see _1000 Hz_ instead of _1 kHz_ in the specs). 
+  **Note:** faster polling rates _will not_ provide any advantage as the polling rate is not the bottle necck in the system's latency. Debouncing and especially the input latency (human reaction time, especially descision making) make higher pollig rates absolute pointless (except for marketing) and will only waste energy/shorten battery life for no gains. As a matter of fact, studies conducted in context of e-sports have prooved that less than 5% were able to notice the difference between 400 Hz and 1000 Hz. It's not relevant except to add marketing bubbles to the product (because higher numbers make people believe that something is better - that's why you see _1000 Hz_ instead of _1 kHz_ in the specs). 
 - Support for 1 LiPo battery cell of any capacity (batteries are optional, >= 4 Ah recommended)
   - single battery enhances battery longevity
   - the higher the capacity, the faster the possible charging
@@ -42,8 +43,8 @@ Optional tools: lube for the stabilizers
 - ESD protection to protect against electrostatic induced damage by touching the metal case (most commercial keyboards miss that important feature)
 - 1.6 mm, 4 layer PCB
 - 1.6 mm, 4 layer daughterboard
-- MCU: [NRF52840](https://www.nordicsemi.com/Products/nRF52840) to support both QMK and ZMK. Features 1 Mb flash memory for tons of layers and custom fucntionalities
-- debugging interface (SWD, JTAG)
+- MCU: STM32L443
+- debugging/flashing interface (SWD, JTAG)
 - power switch under ball catch case (because this keyboard has proper battery maintenace implemented, you will _never_ have to turn it off (except for long term storage)
 - anti-ghosting
 - fast charging (?)
