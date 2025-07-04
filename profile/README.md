@@ -1,7 +1,7 @@
 # Bionic75
 
 The _Bionic75_ is a 75% multi-layout, rapid disassembly, ultra-low latency wireless, ultra-low power, RGB keyboard.
-It has a compact 83 key ISO layout and 82 key ANSI layout.
+It has a compact 84 key ISO layout and 83 key ANSI layout.
 
 It has a magnetic daughterboard connector and is designed with a CNC machined aluminum case that uses a ball catch system. 
 
@@ -13,7 +13,7 @@ Required tools: none or a screw driver if PCB mouted stabilizers are used
 Optional tools: lube for the stabilizers
 
 ## Features
-- 75% form factor (82 keys ISO/ 81 keys ANSI)
+- 75% form factor (84 keys ISO/ 83 keys ANSI)
 - Hot swappable
 - RGB backlight (south facing) using SK68MINI-E LED family
 - Full ISO and ANSI support (for this you need to pick the ISO or ANSI plate or both)
